@@ -1,0 +1,71 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:c="http://java.sun.com/jstl/core"
+      xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:t="http://myfaces.apache.org/tomahawk"
+      xmlns:a4j="https://ajax4jsf.dev.java.net/ajax" xmlns:v="http://corejsf.com/validator">
+    <f:view>
+        <f:loadBundle var="text" basename="#{songForm.bundleName}"/>
+        <head>
+            <title>Build a Song</title>
+            <meta name="heading" content="Build" />
+            <meta name="title" content="Build a Song"/>
+            <meta name="menu" content="SongWizard"/>
+        </head>
+        <t:div id="total">
+            <h:form id="songForm" enctype="multipart/form-data" >
+                <t:div rendered="#{songForm.drawPlan}">
+                    <h2>Composition Plan</h2>
+                    <t:div styleClass="roundedcornr_innerbox_262063">
+                        <div class="roundedcornr_innertop_262063"><div></div></div>
+                        <t:selectOneMenu value="#{songForm.style}" styleClass="styleDrawer">
+                            <f:selectItems value="#{songForm.allStyles}" />
+                        </t:selectOneMenu>
+                        <br/><br/>
+                        <t:dataList id="list" var="thread" value="#{songForm.threads}" layout="simple">
+                            <t:div style="float: left; width: ${thread.divWidth}px; text-align: right;">
+                            </t:div>
+                            <t:div style="width: 50px; padding: 0px 0px 0px ${thread.divWidth}px">
+                                <t:div style="float: left; width: 22px;">
+                                    <a4j:commandLink styleClass="addButton" value="+" action="#{thread.add}" reRender="list"/>
+                                    <br/>
+                                    <a4j:commandLink styleClass="deleteButton" rendered="#{thread.drawDelete}" value="-" action="#{thread.delete}" reRender="list"/>
+                                </t:div>
+                                <t:div styleClass="songNode">
+                                    <t:selectOneMenu value="#{thread.instrument}" style="width: 130px" styleClass="songDrawer">
+                                        <f:selectItems value="#{songForm.allInstruments}" />
+                                    </t:selectOneMenu>
+                                    <br />
+                                    <t:selectOneMenu value="#{thread.complexity}" style="width: 130px" styleClass="songDrawer">
+                                        <f:selectItems value="#{songForm.allComplexities}" />
+                                    </t:selectOneMenu>
+                                </t:div>
+                            </t:div>
+                        </t:dataList>
+                        <div class="roundedcornr_innerbottom_262063"><div></div></div>
+                    </t:div>
+                    <t:saveState id="saveThreads" value="#{songForm.threads}"/>
+                    <br /><br/>
+                    <a4j:commandLink action="#{songForm.compose}" value="Compose" styleClass="composeButton" reRender="total"/>
+               </t:div>
+                <t:div id="applet" rendered="#{songForm.drawApplet}">
+                    <t:div styleClass="roundedcornr_innerbox_262063">
+                        <div class="roundedcornr_innertop_262063"><div></div></div>
+                        <applet code="com.steinlink.ponyleague.applet.MidiApplet.class" archive="applet.jar" width="90%" height="#{songForm.appletHeight}" style="padding-bottom; margin-left: 5%;">
+                            <PARAM NAME="songID" VALUE="#{songForm.songID}" />
+                        </applet>
+                        <div class="roundedcornr_innerbottom_262063"><div></div></div>
+                    </t:div>
+                </t:div>
+                <t:div id="rating" style="#{(songForm.drawApplet) ? 'display:block' : 'display:none'}" >
+                    <br/><br/>
+                     <ul class="rating ${songForm.rating}">
+                         <li class="one"><a4j:commandLink action="#{songForm.rate}" value="1" title="1 Star" reRender="rating" /></li>
+                         <li class="two"><a4j:commandLink action="#{songForm.ratetwo}" value="2" title="2 Star" reRender="rating" /></li>
+                         <li class="three"><a4j:commandLink action="#{songForm.ratethree}" value="3" title="3 Star" reRender="rating" /></li>
+                         <li class="four"><a4j:commandLink action="#{songForm.ratefour}" value="4" title="4 Star" reRender="rating" /></li>
+                         <li class="five"><a4j:commandLink action="#{songForm.ratefive}" value="5" title="5 Star" reRender="rating" /></li>
+                     </ul>
+                </t:div>
+            </h:form>
+        </t:div>
+    </f:view>
+</html>

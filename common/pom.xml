@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <groupId>com.steinlink</groupId>
+        <artifactId>ponyleague</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    
+    <artifactId>common</artifactId>
+    <packaging>jar</packaging>
+    <name>AppFuse Modular Application - Common</name>
+    
+    <build>
+        <plugins>
+  
+        </plugins>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+                <filtering>true</filtering>
+            </testResource>
+        </testResources>
+    </build>
+
+    <!-- Dependencies calculated by AppFuse when running full-source plugin -->
+    <dependencies>
+ 
+    </dependencies>
+</project>

@@ -1,0 +1,26 @@
+<!-- Root node of the configuration
+-->
+<!ELEMENT onload-config (navigation-rule*)>
+<!-- Defines a navigation-rule that will be executed when there is a match on the view-id.
+     When the page being loaded is the same as the view-id of the rule, the specified action
+     method is executed. If the result from the action (string) is not the same as the
+     success-result (default is null), then the request is re-routed according to the faces
+     configuration navigation rules.
+ -->
+<!ELEMENT navigation-rule (view-id, action, success-result?)>
+
+<!-- The view-id that is being loaded to match against
+-->
+<!ELEMENT view-id (#PCDATA)>
+
+<!-- The action method to invoke. Must be an "EL" syntax to a managed bean's action method. The
+     method should have no parameters and return a String
+-->
+<!ELEMENT action (#PCDATA)>
+
+<!-- Specifies the expected result from the action. If the result of the action is this result,
+     the navigation is not disrupted. If the result is different, then the request will be
+     re-routed according to the faces configuration navigation rules. The default value
+     is null if not given
+-->
+<!ELEMENT success-result (#PCDATA)>

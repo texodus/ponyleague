@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE onload-config PUBLIC "-//mysite//onload 1.0//EN" "onload-config.dtd">
+<onload-config>
+        <navigation-rule>
+                <view-id>/song.xhtml</view-id>
+                <action>#{songForm.init}</action>
+                <success-result>Success</success-result>
+        </navigation-rule>
+</onload-config>

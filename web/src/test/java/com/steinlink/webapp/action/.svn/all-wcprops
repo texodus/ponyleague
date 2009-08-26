@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/java/com/steinlink/webapp/action
+END
+UserFormTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/java/com/steinlink/webapp/action/UserFormTest.java
+END
+PasswordHintTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/java/com/steinlink/webapp/action/PasswordHintTest.java
+END
+SignupFormTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/java/com/steinlink/webapp/action/SignupFormTest.java
+END
+UserListTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/java/com/steinlink/webapp/action/UserListTest.java
+END

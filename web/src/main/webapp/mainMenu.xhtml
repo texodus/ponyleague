@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:c="http://java.sun.com/jstl/core"
+      xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:t="http://myfaces.apache.org/tomahawk"
+      xmlns:v="http://corejsf.com/validator">
+
+<f:view>
+    <f:loadBundle var="text" basename="#{basePage.bundleName}"/>
+
+    <head>
+        <title>News</title>
+        <meta name="menu" content="MainMenu"/>
+        <meta name="heading" content="News" />
+        <meta name="username" content="#{userForm.user.username}" />
+    </head>
+    <h:form id="userForm" onsubmit="return validateUserForm(this)">
+      <c:forEach items="#{newsList.news}" var="news">
+        <p>
+            <b><h:outputText value="#{news.createDate}" style="float: right;" /></b>
+            <b><h:outputText value="#{news.subject}"/></b>
+            <br/>
+            <h:outputText value="#{news.text}" />
+           <br/><br/>
+        </p>
+      </c:forEach>
+     </h:form>
+</f:view>
+</html>

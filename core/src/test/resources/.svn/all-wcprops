@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/7/ponyleague/trunk/core/src/test/resources
+END
+applicationContext-resources.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/1/ponyleague/trunk/core/src/test/resources/applicationContext-resources.xml
+END
+ApplicationResources_fr.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1/ponyleague/trunk/core/src/test/resources/ApplicationResources_fr.properties
+END
+ApplicationResources_de.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1/ponyleague/trunk/core/src/test/resources/ApplicationResources_de.properties
+END
+ApplicationResources_nl.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1/ponyleague/trunk/core/src/test/resources/ApplicationResources_nl.properties
+END
+test-attachment.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/1/ponyleague/trunk/core/src/test/resources/test-attachment.txt
+END
+applicationContext-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1/ponyleague/trunk/core/src/test/resources/applicationContext-test.xml
+END
+sample-data.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/7/ponyleague/trunk/core/src/test/resources/sample-data.xml
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/1/ponyleague/trunk/core/src/test/resources/jdbc.properties
+END
+mail.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/1/ponyleague/trunk/core/src/test/resources/mail.properties
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/1/ponyleague/trunk/core/src/test/resources/log4j.xml
+END

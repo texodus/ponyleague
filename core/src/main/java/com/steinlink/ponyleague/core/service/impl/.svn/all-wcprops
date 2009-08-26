@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/10/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/service/impl
+END
+ConfigManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/service/impl/ConfigManagerImpl.java
+END
+InstrumentManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/service/impl/InstrumentManagerImpl.java
+END
+JobManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/service/impl/JobManagerImpl.java
+END
+NewsManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/service/impl/NewsManagerImpl.java
+END
+GeneManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/10/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/service/impl/GeneManagerImpl.java
+END
+StyleManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/service/impl/StyleManagerImpl.java
+END
+SongJobManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/service/impl/SongJobManagerImpl.java
+END

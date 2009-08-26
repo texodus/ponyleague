@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service
+END
+UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service/UserService.java
+END
+BaseManagerTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service/BaseManagerTestCase.java
+END
+UserSecurityAdvice.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service/UserSecurityAdvice.java
+END
+UniversalManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service/UniversalManager.java
+END
+LookupManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service/LookupManager.java
+END
+GenericManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service/GenericManager.java
+END
+MailEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service/MailEngine.java
+END
+UserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service/UserManager.java
+END
+RoleManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service/RoleManager.java
+END
+UserExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/service/UserExistsException.java
+END

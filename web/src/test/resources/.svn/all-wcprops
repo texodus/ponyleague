@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/resources
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/resources/config.xml
+END
+login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/resources/login.xml
+END
+sample-data.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/resources/sample-data.xml
+END
+web-tests.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/resources/web-tests.xml
+END

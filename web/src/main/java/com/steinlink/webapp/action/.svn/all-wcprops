@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action
+END
+UserForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action/UserForm.java
+END
+BasePageTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action/BasePageTestCase.java
+END
+CountryModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action/CountryModel.java
+END
+FileUpload.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action/FileUpload.java
+END
+PasswordHint.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action/PasswordHint.java
+END
+ActiveUserList.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action/ActiveUserList.java
+END
+Reload.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action/Reload.java
+END
+BasePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action/BasePage.java
+END
+SignupForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action/SignupForm.java
+END
+UserList.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/java/com/steinlink/webapp/action/UserList.java
+END

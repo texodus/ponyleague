@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd"
+       default-lazy-init="true">
+
+    <!-- Add new DAOs here -->
+
+    <!-- Add new Managers here -->
+
+        <bean id="configManager" class="com.steinlink.ponyleague.core.service.impl.ConfigManagerImpl">
+        <constructor-arg ref="configDao"/>
+    </bean>
+
+    <bean id="configDao" class="com.steinlink.ponyleague.core.dao.hibernate.ConfigDaoHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+
+    <bean id="newsManager" class="com.steinlink.ponyleague.core.service.impl.NewsManagerImpl">
+        <constructor-arg ref="newsDao"/>
+    </bean>
+
+    <bean id="newsDao" class="com.steinlink.ponyleague.core.dao.hibernate.NewsDaoHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="instrumentManager" class="com.steinlink.ponyleague.core.service.impl.InstrumentManagerImpl">
+        <constructor-arg ref="instrumentDao"/>
+    </bean>
+
+    <bean id="instrumentDao" class="com.steinlink.ponyleague.core.dao.hibernate.InstrumentDaoHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="jobManager" class="com.steinlink.ponyleague.core.service.impl.JobManagerImpl">
+        <constructor-arg ref="jobDao"/>
+    </bean>
+
+    <bean id="jobDao" class="com.steinlink.ponyleague.core.dao.hibernate.JobDaoHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="songJobManager" class="com.steinlink.ponyleague.core.service.impl.SongJobManagerImpl">
+        <constructor-arg ref="songJobDao"/>
+    </bean>
+
+    <bean id="songJobDao" class="com.steinlink.ponyleague.core.dao.hibernate.SongJobDaoHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="styleManager" class="com.steinlink.ponyleague.core.service.impl.StyleManagerImpl">
+        <constructor-arg ref="styleDao"/>
+    </bean>
+
+    <bean id="styleDao" class="com.steinlink.ponyleague.core.dao.hibernate.StyleDaoHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="geneManager" class="com.steinlink.ponyleague.core.service.impl.GeneManagerImpl">
+        <constructor-arg ref="geneDao"/>
+    </bean>
+
+    <bean id="geneDao" class="com.steinlink.ponyleague.core.dao.hibernate.GeneDaoHibernate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+</beans>

@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:c="http://java.sun.com/jstl/core"
+      xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:t="http://myfaces.apache.org/tomahawk"
+      xmlns:a4j="https://ajax4jsf.dev.java.net/ajax" xmlns:v="http://corejsf.com/validator">
+
+    <f:view>
+        <f:loadBundle var="text" basename="#{songPanelForm.bundleName}"/>
+        <head>
+            <title>Gene Control Panel</title>
+            <meta name="title" content="Gene Control Panel"/>
+            <meta name="menu" content="songPanel"/>
+        </head>
+        <h:form id="songPanelForm" enctype="multipart/form-data" >
+            <t:commandButton value="Generate Instrument Records" action="#{songPanelForm.generateInstruments}" />
+            <br /><br />
+            <t:commandButton value="Generate Genes" action="#{songPanelForm.generateGenes}" />
+            <br /><br />
+            <t:commandButton value="Generate Styles" action="#{songPanelForm.generateStyles}" />
+            <br /><br />
+            <t:commandButton value="Generate Default Config Values" action="#{songPanelForm.generateConfigs}" />
+            <br /><br />
+            <t:outputLabel for="subject" value="Subject" />
+            <br />
+            <t:inputText id="subject" length="60" value="#{songPanelForm.subjectContent}" />
+            <br/>
+            <t:outputLabel for="news" value="Text" />
+            <br />
+            <t:inputTextarea id="news" rows="6" cols="60" value="#{songPanelForm.newsContent}" />
+            <br/>
+            <t:commandButton value="Add News" action="#{songPanelForm.addNews}" />
+        </h:form>
+    </f:view>
+</html>

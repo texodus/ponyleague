@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/11/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao
+END
+NewsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/NewsDao.java
+END
+GeneDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/10/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/GeneDao.java
+END
+StyleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/StyleDao.java
+END
+SongJobDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/SongJobDao.java
+END
+ConfigDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/ConfigDao.java
+END
+InstrumentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/InstrumentDao.java
+END
+JobDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/JobDao.java
+END

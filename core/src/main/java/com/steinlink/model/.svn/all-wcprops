@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/model
+END
+BaseObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/model/BaseObject.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/model/Role.java
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/model/Address.java
+END
+LabelValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/model/LabelValue.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/model/User.java
+END

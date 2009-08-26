@@ -1,0 +1,16 @@
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="com.steinlink.model.User"/>
+        <mapping class="com.steinlink.model.Role"/>
+        <mapping class="com.steinlink.ponyleague.core.model.Instrument"/>
+        <mapping class="com.steinlink.ponyleague.core.model.Job"/>
+        <mapping class="com.steinlink.ponyleague.core.model.SongJob"/>
+        <mapping class="com.steinlink.ponyleague.core.model.Style"/>
+        <mapping class="com.steinlink.ponyleague.core.model.Gene"/>
+        <mapping class="com.steinlink.ponyleague.core.model.Config"/>
+        <mapping class="com.steinlink.ponyleague.core.model.News" />
+    </session-factory>
+</hibernate-configuration>

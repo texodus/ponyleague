@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MenuConfig>
+    <Displayers>
+        <Displayer name="Velocity" type="net.sf.navigator.displayer.VelocityMenuDisplayer"/>
+    </Displayers>
+    <Menus>
+        <Menu name="SongWizard" title="Compose" description="Build a Song" page="/song.html" roles="ROLE_ADMIN,ROLE_USER"/>
+        <Menu name="UserMenu" title="Profile" description="User Menu" page="/editProfile.html" roles="ROLE_ADMIN,ROLE_USER"/>
+        <Menu name="AdminMenu" title="Admin" description="Admin Menu" roles="ROLE_ADMIN" page="/users.html">
+            <Item name="SongPanel" title="Gene Settings" page="/songPanel.html" roles="ROLE_ADMIN" />
+            <Item name="ViewUsers" title="menu.admin.users" page="/admin/users.html"/>
+            <Item name="ActiveUsers" title="mainMenu.activeUsers" page="/admin/activeUsers.html"/>
+            <Item name="ReloadContext" title="menu.admin.reload" page="/admin/reload.html"/>
+            <Item name="FlushCache" title="menu.flushCache" page="/admin/flushCache.html" roles="ROLE_ADMIN"/>
+            <Item name="Clickstream" title="menu.clickstream" page="/admin/clickstreams.jsp" roles="ROLE_ADMIN"/>
+        </Menu>
+        <Menu name="MainMenu" title="About" page="/mainMenu.html" />
+        <Menu name="Logout" title="Logout" page="/logout.jsp" roles="ROLE_ADMIN,ROLE_USER"/>
+    </Menus>
+</MenuConfig>

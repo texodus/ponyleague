@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/webapp/WEB-INF/taglibs
+END
+acegijsf.taglib.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/webapp/WEB-INF/taglibs/acegijsf.taglib.xml
+END
+tomahawk.taglib.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/webapp/WEB-INF/taglibs/tomahawk.taglib.xml
+END
+corejsf-validator.taglib.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/1/ponyleague/trunk/web/src/main/webapp/WEB-INF/taglibs/corejsf-validator.taglib.xml
+END

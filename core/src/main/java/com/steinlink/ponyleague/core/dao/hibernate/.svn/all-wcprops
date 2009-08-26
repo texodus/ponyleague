@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/11/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/hibernate
+END
+JobDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/hibernate/JobDaoHibernate.java
+END
+NewsDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/hibernate/NewsDaoHibernate.java
+END
+GeneDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/11/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/hibernate/GeneDaoHibernate.java
+END
+StyleDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/hibernate/StyleDaoHibernate.java
+END
+SongJobDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/hibernate/SongJobDaoHibernate.java
+END
+ConfigDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/hibernate/ConfigDaoHibernate.java
+END
+InstrumentDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/dao/hibernate/InstrumentDaoHibernate.java
+END

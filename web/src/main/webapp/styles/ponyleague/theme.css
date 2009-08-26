@@ -1,0 +1,634 @@
+@import url(../displaytag.css);
+@import url(../forms.css);
+@import url(../messages.css);
+/* A CSS Framework by Mike Stenhouse of Content with Style
+
+     Color pallete:
+             #444        - dark gray (text)
+             #3e9ade - medium blue (title)
+             #ff3300 - lime (header 1)
+             #ebf5fc - light cyan (hover text, footer)
+             #d7e9f5    - medium cyan (tab)
+             #1465b7 - dark blue (tab text, hyperlink)
+             #ccc         - medium gray (line)
+             #f7f7f7 - light gray (form background)
+             #f90        - orange (required *)
+*/
+
+
+
+/* TYPOGRAPHY */
+    body {
+	background-image: url(../../images/background.png);
+	text-align: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 76%;
+	line-height: 1em;
+	color: #000000;
+    }
+
+    div {
+    }
+
+    img {
+        border: 0;
+    }
+
+    /* LINKS */
+        a,a:link
+            a:active {
+            color: #ff3300;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #ff3300;
+            background-color: transparent;
+        }
+
+        a:hover {
+            color: #cc0000;
+            text-decoration: none;
+        }
+    /* END LINKS */
+
+    /* HEADINGS */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: tahoma, arial, helvetica, sans-serif;
+            font-weight: normal;
+        }
+
+        h1 {
+	font-size: 2.2em;
+	letter-spacing: -1px;
+	line-height: 1.3em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+	color: #000000;
+        }
+
+		h2 {
+			color: white;
+		    font-family: Verdana, Arial, Helvetica, sans-serif;
+		    font-size: 180%;
+		    
+		}
+
+        div#branding h1 {
+	font-size: 40px;
+	letter-spacing: 0px;
+	margin-left: 0px;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	     }
+
+        div#branding p {
+	margin: 0;
+	line-height: 1em;
+	color: #FFFFFF;
+	position: absolute;
+	left: 205px;
+	top: 55px;
+        }
+
+        h2 {
+            color: black;
+            font-size: 1.4em;
+            line-height: 1.5em;
+            margin: 0 0 0.5em 0;
+            padding: 0;
+        }
+
+        h3 {
+            font-size: 1.3em;
+            line-height: 1.3em;
+            margin: 0 0 0.5em 0;
+            padding: 0;
+            color: black;
+        }
+
+        h4 {
+            font-size: 1.2em;
+            line-height: 1.3em;
+            margin: 0 0 0.25em 0;
+            padding: 0;
+            color: black;
+        }
+
+        h5 {
+            font-size: 1.1em;
+            line-height: 1.3em;
+            margin: 0 0 0.25em 0;
+            padding: 0;
+            color: black;
+        }
+
+        h6 {
+            font-size: 1em;
+            line-height: 1.3em;
+            margin: 0 0 0.25em 0;
+            padding: 0;
+            color: black;
+        }
+    /* END HEADINGS */
+
+    /* TEXT */
+        p {
+            font-size: 1em;
+            margin: 0 0 1.5em 0;
+            padding: 0;
+            line-height: 1.4em;
+        }
+
+        blockquote {
+            border-left: 10px solid #ddd;
+            margin-left: 10px;
+        }
+
+        pre {
+            font-family: monospace;
+            font-size: 12px;
+        }
+
+        strong,b {
+            font-weight: bold;
+        }
+
+        em,i {
+            font-style: italic;
+        }
+
+        code {
+            font-family: "courier new", courier, monospace;
+            font-size: 12px;
+            white-space: pre;
+        }
+    /* END TEXT */
+
+    /* LISTS */
+        ul.glassList {
+            list-style: url(../../images/aquadot.jpg) disc outside;
+            vertical-align: top;
+            line-height: 1.5em;
+        }
+        dl {
+            margin: 0 0 1.5em 0;
+            padding: 0;
+            line-height: 1.4em;
+        }
+
+        dl dt {
+            font-weight: bold;
+            margin: 0.25em 0 0.25em 0;
+            padding: 0;
+        }
+
+        dl dd {
+            margin: 0 0 0 30px;
+            padding: 0;
+        }
+
+    /* END LISTS */
+
+    /* TABLE */
+        table {
+            font-size: 1em;
+            margin: 0 0 1.5em 0;
+            padding: 0;
+        }
+
+        table caption {
+            font-weight: bold;
+            margin: 0 0 0 0;
+            padding: 0 0 1.5em 0;
+        }
+
+        th {
+            font-weight: bold;
+            text-align: left;
+        }
+
+        td {
+            font-size: 1em;
+        }
+
+        /*********************************
+           Project: CSS Table Galery
+           Title: Like Adwords
+           Author: Cleiton Francisco
+           URL: http://www.cleiton.net/
+           Country: Brazil
+           Update: 2005-12-18
+         *******************************/
+
+            .table {
+                border-collapse: collapse;
+                border: 2px solid #74B3DC;
+                color: #000;
+                background: #fff;
+                width: 100%;
+            }
+                .table caption {
+                    padding: 0 0.6em 0.8em;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                    text-align: left;
+                    color: #000;
+                    background: transparent;
+                }
+                /* For Tapestry's contribTable */
+                .table th table, .table th table td {
+                    width: 100%;
+                    border: 0px;
+                }
+                .contribTable th {
+                    padding: 0px !important;
+                    background: #d7e9f5;
+                }
+                .contribTable th .tableHeaderTable {
+                    margin: 0px !important;
+                }
+                .table td, .table th, .tableHeaderTable td {
+                    border: 1px solid #e0e0e0;
+                    padding: 0.5em;
+                }
+                .table thead th, .tableHeaderTable td {
+                    border: 1px solid #e0e0e0;
+                    text-align: left;
+                    font-size: 1em;
+                    font-weight: bold;
+                    background: #d7e9f5;
+                }
+                .tableHeaderTable td a {
+                    text-decoration: none !important;
+                }
+                .table tfoot th, tfoot td {
+                    border: 1px solid #e0e0e0;
+                    text-align: left;
+                    font-size: 1em;
+                    background: #e8e8cf;
+                }
+                .table tfoot th {
+                    font-weight: bold;
+                }
+                .table tbody td a {
+                    background: transparent;
+                    text-decoration: underline;
+                }
+                .table tbody td a:hover {
+                    background: transparent;
+                    text-decoration: underline;
+                }
+                .table tbody th a {
+                    background: transparent;
+                    text-decoration: underline;
+                    font-weight: bold;
+                }
+                .table tbody th, .table tbody td {
+                    text-align: left;
+                }
+                .table tfoot td {
+                    border: 1px solid #996;
+                }
+                .table tbody tr:hover, .table tr.over, .contribTable tr:hover {
+                    background: #ffffd9 !important; /* important needed for Tapestry, as is .table tr:hover */
+                }
+                .contribTable tr.even {
+                    background: #fff !important;
+                }
+                .contribTable tr.odd {
+                    background: #eee !important;
+                }
+    /* END TABLE */
+
+    hr {
+        display: none;
+    }
+
+    div.hr {
+        height: 1px;
+        margin: 1.5em 10px;
+        border-bottom: 1px dotted black;
+    }
+/* END TYPOGRAPHY */
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAV */
+    div#nav {
+	font-size: 1.0em;
+	position: absolute;
+	left: 0px;
+	top: 180px;
+	width: 160px;
+	float: left;
+    }
+    * html div#nav {
+        /* hide ie/mac \*/
+        height: 1%;
+        /* end hide */
+    }
+    div#nav div.wrapper {
+	width: 100%;
+    }
+    div#nav ul {
+	width: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+	list-style: none;
+	color: #FFFFFF;
+    }
+    * html div#nav li {
+	/* hide ie/mac \*/
+        height: 1%;
+	 /* end hide */
+    }
+    div#nav li.last {
+
+    }
+    div#nav li a {
+        display: block;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 0;
+        padding: 10px;
+        height: 20px;
+        color: #ffffff;
+    }
+    div#nav li a:hover, div#nav li a.current {
+        color: #000000;
+        background: #FFFFFF;
+	}
+
+    div#nav li ul {
+        margin: 0;
+        padding: 0;
+        font-size: 0.9em;
+        list-style: none;
+     }
+
+    div#nav li ul li {
+        padding: 0;
+        margin: 2px 0 0 40px;
+        list-style: none;
+        border: none;
+    }
+
+    div#nav li ul a {
+        color: #FFFFFF;
+    }
+
+    div#nav li ul li a:hover {
+	color: #CCCCCC;
+	text-transform: none;
+    }
+/* END NAV */
+
+span.accesskey {
+    text-decoration:none;
+}
+.accessibility {
+    position: absolute;
+    top: -999em;
+    left: -999em;
+}
+
+body {
+  	margin-left: 160px;
+	margin-top: 0px;
+	height: 100%;
+}
+#page #header #branding {
+	height: 115px;
+	padding-left: 0px;
+}
+#branding {
+	background-image: url(../../images/branding.png);
+	background-repeat: no-repeat;
+}
+#page #content #main #nav {
+	background-color: #000000;
+}
+#page #header #branding a {
+	color: #FFFFFF;
+}
+#main {
+	background-color: #FFFFFF;
+    color: black;
+    padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 0px;
+	margin-bottom: -8px;
+	min-height: 300px;
+}
+
+
+.roundedcornr_box_262063 {
+	padding-top: -10px;   
+	margin-right: 145px;
+	top: 135px;
+	background-color: #FFFFFF;
+}
+.roundedcornr_top_262063 div {
+   background: url(roundedcornr_262063_tl.png) no-repeat top left;
+}
+.roundedcornr_top_262063 {
+   background: url(roundedcornr_262063_tr.png) no-repeat top right;
+}
+
+.roundedcornr_top_262063 div, .roundedcornr_top_262063{
+   height: 30px;
+   font-size: 1px;
+}
+
+.roundedcornr_bottom_262063 div {
+   background: url(roundedcornr_262063_bl.png) no-repeat top left;
+}
+.roundedcornr_bottom_262063 {
+   background: url(roundedcornr_262063_br.png) no-repeat top right;
+}
+
+.roundedcornr_bottom_262063 div, .roundedcornr_top_262063{
+   height: 30px;
+   font-size: 1px;
+}
+
+.roundedcornr_content_262063 { margin: 0 30px; }
+
+.roundedcornr_innerbox_262063 {
+	background-color: #000000;
+}                                                                             
+.roundedcornr_innertop_262063 div {
+   background: url(innerroundedcornr_262063_tl.png) no-repeat top left;
+}
+.roundedcornr_innertop_262063 {
+   background: url(innerroundedcornr_262063_tr.png) no-repeat top right;
+}
+
+.roundedcornr_innertop_262063 div, .roundedcornr_innertop_262063{
+   height: 30px;
+   font-size: 1px;
+}
+
+.roundedcornr_innerbottom_262063 div {
+   background: url(innerroundedcornr_262063_bl.png) no-repeat top left;
+}
+.roundedcornr_innerbottom_262063 {
+   background: url(innerroundedcornr_262063_br.png) no-repeat top right;
+}
+
+.roundedcornr_innerbottom_262063 div, .roundedcornr_innertop_262063{
+   height: 30px;
+   font-size: 1px;
+}
+
+.roundedcornr_innercontent_262063 { margin: 0 30px; }
+
+#page #content #sub {
+	width: 125px;
+    position: absolute;
+	right: 0px;
+	padding: 0px;
+	top: 0px;
+    padding-left: 18px;
+	padding-bottom: 25px;
+	padding-right: 10px;
+	color: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	background-color: #000000;
+	padding-top: 25px;
+}
+
+
+div#footer {
+	margin-right: 155px;
+    margin-top: 15px;
+    line-height: 50px;
+	text-align: center;
+	color: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 76%;
+
+}
+
+.addButton {
+    color: white;
+    font-size: 250%;
+    line-height: 28px;
+    text-align: right;
+    padding-left: 6px;
+ }
+
+.deleteButton {
+    color: white;
+    font-size: 250%;
+    line-height: 25px;
+    text-align: right;
+    padding-left: 10px;
+}
+
+.songDrawer {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 130%;
+}
+
+.styleDrawer {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 130%;
+	margin-left:30px;
+}
+
+.songNode {
+    padding: 4px 140px 6px 30px;
+}
+
+.composeButton, a.composeButton:visited {
+    color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    
+}
+
+ a.addButton:visited, a.deleteButton:visited {
+    color: white;    
+}
+
+a.composeButton:hover, a.addButton:hover, a.deleteButton:hover {
+    color: red;
+}
+div#divider {
+	width: 150px;
+	border-bottom-width: 15px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	position: relative;
+	left: -18px;
+}
+.desc {
+    color: black;
+}
+
+.rating{
+width:420px;
+height:40px;
+margin:0 0 20px 0;
+padding:0;
+list-style:none;
+clear:both;
+position:relative;
+background: url(../../images/stars.png) no-repeat 0 0;
+}
+ul.rating li {
+cursor: pointer;
+/*ie5 mac doesn't like it if the list is floated but ie6 does\*/
+float:left;
+/* end hide*/
+text-indent:-999em;/* hide text*/
+}
+ul.rating li a {
+position:absolute;
+left:0;
+top:0;
+width:68px;
+height:40px;
+text-decoration:none;
+z-index: 200;
+}
+ul.rating li.one a {left:0}
+ul.rating li.two a {left:68px;}
+ul.rating li.three a {left:134px;}
+ul.rating li.four a {left:202px;}
+ul.rating li.five a {left:270px;}
+
+.nostar {background-position:0 0}
+.onestar {background-position:0 -40px}
+.twostar {background-position:0 -80px}
+.threestar {background-position:0 -120px}
+.fourstar {background-position:0 -160px}
+.fivestar {background-position:0 -200px}
+
+ul.rating li a:hover {
+z-index:2;
+width:420px;
+height:40px;
+overflow:hidden;
+left:0;
+background: url(../../images/stars.png) no-repeat 0 0
+}
+ul.rating li.one a:hover {background-position:0 -40px;}
+ul.rating li.two a:hover {background-position:0 -80px;}
+ul.rating li.three a:hover {background-position:0 -120px}
+ul.rating li.four a:hover {background-position:0 -160px}
+ul.rating li.five a:hover {background-position:0 -200px}

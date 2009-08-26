@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/hibernate
+END
+LookupDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/hibernate/LookupDaoHibernate.java
+END
+GenericDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/hibernate/GenericDaoHibernate.java
+END
+UserDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/hibernate/UserDaoHibernate.java
+END
+RoleDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/hibernate/RoleDaoHibernate.java
+END
+UniversalDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/hibernate/UniversalDaoHibernate.java
+END

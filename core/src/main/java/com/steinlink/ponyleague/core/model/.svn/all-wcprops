@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/11/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/model
+END
+Style.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/model/Style.java
+END
+SongJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/11/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/model/SongJob.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/model/Config.java
+END
+Instrument.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/model/Instrument.java
+END
+Job.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/model/Job.java
+END
+News.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/6/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/model/News.java
+END
+Gene.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/10/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/model/Gene.java
+END

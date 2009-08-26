@@ -1,0 +1,34 @@
+9
+
+dir
+130
+http://svn.texodusmedia.com/repos/ponyleague/trunk/src
+http://svn.texodusmedia.com/repos
+
+
+
+2008-02-17T10:52:05.188955Z
+1
+steinlink
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1eb46b91-665f-4788-b398-3b466e715172
+
+main
+dir
+
+site
+dir
+

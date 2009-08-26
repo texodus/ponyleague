@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/7/ponyleague/trunk/core/src/main/resources
+END
+applicationContext-service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/resources/applicationContext-service.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/resources/applicationContext.xml
+END
+applicationContext-dao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/resources/applicationContext-dao.xml
+END
+default-data.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/7/ponyleague/trunk/core/src/main/resources/default-data.xml
+END
+sql-map-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/resources/sql-map-config.xml
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/resources/hibernate.cfg.xml
+END

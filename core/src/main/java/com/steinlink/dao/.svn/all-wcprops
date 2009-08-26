@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao
+END
+GenericDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/GenericDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/UserDao.java
+END
+RoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/RoleDao.java
+END
+BaseDaoTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/BaseDaoTestCase.java
+END
+UniversalDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/UniversalDao.java
+END
+LookupDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/dao/LookupDao.java
+END

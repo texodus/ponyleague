@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/java/com/steinlink/webapp/filter
+END
+MockFilterChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/java/com/steinlink/webapp/filter/MockFilterChain.java
+END
+LocaleFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/java/com/steinlink/webapp/filter/LocaleFilterTest.java
+END
+StaticFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1/ponyleague/trunk/web/src/test/java/com/steinlink/webapp/filter/StaticFilterTest.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/10/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/song
+END
+ChromosomeIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/song/ChromosomeIterator.java
+END
+Note.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/song/Note.java
+END
+Voice.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/song/Voice.java
+END
+SongModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/10/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/song/SongModel.java
+END
+Chromosome.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/ponyleague/core/song/Chromosome.java
+END

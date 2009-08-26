@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/util
+END
+CurrencyConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/util/CurrencyConverter.java
+END
+DateConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/util/DateConverter.java
+END
+DateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/util/DateUtil.java
+END
+TimestampConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/util/TimestampConverter.java
+END
+ConvertUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1/ponyleague/trunk/core/src/main/java/com/steinlink/util/ConvertUtil.java
+END

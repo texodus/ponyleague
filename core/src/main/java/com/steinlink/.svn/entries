@@ -1,0 +1,77 @@
+9
+
+dir
+130
+http://svn.texodusmedia.com/repos/ponyleague/trunk/core/src/main/java/com/steinlink
+http://svn.texodusmedia.com/repos
+
+
+
+2008-04-21T05:29:47.064984Z
+11
+steinlink
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1eb46b91-665f-4788-b398-3b466e715172
+
+model
+dir
+
+service
+dir
+
+dao
+dir
+
+ponyleague
+dir
+
+Constants.java
+file
+
+
+
+
+2009-08-26T06:05:57.000000Z
+b589f403344d550a2b15f75a1741211e
+2008-02-17T10:52:05.188955Z
+1
+steinlink
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2374
+
+util
+dir
+
